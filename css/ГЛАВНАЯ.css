@@ -894,9 +894,29 @@ margin-left: 168px;
 padding-top: 31px;
 }
 .form{
+    padding: 20px;
+
 
 }
 .kont{
     width: 1024px;
+    height: 1024px;
     margin: 0 auto;
+    background: #C3D5E7;
+}
+.wrapper_2 {
+    max-width:1024px;
+    height: 468.75px;
+    margin:0 auto;
+    background: url(../img/domik.jpg) no-repeat;
+}
+footer{
+    position: relative;
+    top: 570px;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px;
+    border-radius: 5px;
 }
