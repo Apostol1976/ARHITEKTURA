@@ -897,12 +897,14 @@ padding-top: 31px;
     padding: 20px;
 
 
+
 }
 .kont{
     width: 1024px;
     height: 1024px;
     margin: 0 auto;
     background: #C3D5E7;
+
 }
 .wrapper_2 {
     max-width:1024px;
@@ -912,11 +914,23 @@ padding-top: 31px;
 }
 footer{
     position: relative;
-    top: 570px;
+    top: 530px;
 }
 input{
     padding: 5px;
     margin: 5px;
     border: solid 1px;
     border-radius: 5px;
+}
+input:focus {
+    border: solid 2px red;
+}
+table{
+    background-color: silver;
+    margin-top: 50px;
+    margin-left:100px ;
+
+}
+td{
+    text-align: right;
 }

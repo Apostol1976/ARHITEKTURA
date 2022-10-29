@@ -6,8 +6,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>РЕГИСТРАЦИЯ</title>
+				<script type="text/javascript" src="./js/validate.js"></script>
+
+
+
 	<link rel="stylesheet" type="text/css" href="css/ГЛАВНАЯ.css"></head>
 <body>
+
 	<div class="kont">
 	<header class="header">
 		<div class="wrapper_2">
@@ -64,33 +69,35 @@
 
 
 	</header>
+
 			<div class="form">
 
-		<form method="post" action="">
+
+		<form method="post" action="" OnSubmit="return Validate(this);">
 			<table>
 				<tr>
 					<td>Имя пользователя</td>
-					<td><input type="text" name="username"></td>
+					<td><input type="text" id="username"></td>
 				</tr>
 				<tr>
 					<td>Пароль</td>
-					<td><input type="password" name="password"></td>
+					<td><input type="password" id="password"></td>
 				</tr>
 				<tr>
 					<td>Повторить пароль</td>
-					<td><input type="password" name="repeat"></td>
+					<td><input type="password" id="repeat"></td>
 				</tr>
 				<tr>
-					<td>Е-мейл</td>
-					<td><input type="text" name="mail"></td>
+					<td>Э-майл</td>
+					<td><input type="text" id="mail"></td>
 				</tr>
 				<tr>
 					<td>Дата рождения</td>
-					<td><input type="date" name="bd"></td>
+					<td><input type="date" id="bd"></td>
 				</tr>
 
 				<tr>
-					<td><input type="submit" value="Отправить"></td>
+					<td><input type="Submit" value="Отправить"></td>
 					<td><input type="reset" value="Отмена"></td>
 				</tr>
 
