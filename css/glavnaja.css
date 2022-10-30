@@ -942,9 +942,12 @@ td{
 .ul{
     list-style: square outside;
     font-size: 20px;
+
 }
 .ol{
     list-style: circle inside;
+    margin: 10px;
+
 }
 
 .h{
